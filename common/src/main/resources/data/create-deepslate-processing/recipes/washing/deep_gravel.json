@@ -1,0 +1,22 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create-deepslate-processing:deep_gravel"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.35,
+      "item": "create-deepslate-processing:deepslate_shard"
+    },
+    {
+      "chance": 0.15,
+      "item": "create:zinc_nugget"
+    },
+    {
+      "chance": 0.025,
+      "item": "minecraft:iron_nugget"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+    "id": "create-deepslate-processing",
+    "version": "${version}",
+    "name": "Create: Deepslate Processing",
+    "description": "Adds processing for deepslate into useful minerals",
+    "authors": [
+        "Cak"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "MIT",
+    "icon": "assets/create-deepslate-processing/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.cak.deepslateprocessing.DeepslateProcessing"
+        ],
+        "fabric-datagen": [
+            "com.cak.deepslateprocessing.DPData"
+        ]
+    },
+    "mixins": [
+        "create-deepslate-processing.mixins.json",
+        "create-deepslate-processing.fabric.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}",
+        "java": ">=17",
+        "create": ">=${create_version}"
+    },
+    "suggests": {
+    }
+}
+  
